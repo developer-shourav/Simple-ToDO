@@ -14,7 +14,7 @@ body {
 
 .header {
   flex: 30%;
-  background-color: tomato;
+  background-color: #00aeff;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -60,7 +60,7 @@ body {
   width: 500px;
   height: 50px;
   display: flex;
-  color: white;
+  color: #00025a;
   margin: 15px;
 }
 
@@ -80,16 +80,21 @@ body {
   height: 100%;
   font-size: 18px;
   border-right: none;
-  background-color: tomato;
+  background-color:  #00aeff;
 }
 
 .task button {
   flex: 20%;
   height: 100%;
   border: none;
-  background-color: lightseagreen;
+  background-color: #00025a;
   border-top-right-radius: 8px;
   border-bottom-right-radius: 8px;
   color: white;
   cursor: pointer;
+}
+
+.taskAddingBtn{
+  color: white;
+  background-color: rgb(255, 0, 149);
 }
